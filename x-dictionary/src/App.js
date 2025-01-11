@@ -10,10 +10,10 @@ function App() {
   };
 
   const handleSearch = () => {
-    if (!word || word === " ") {
-      setDefinition("");
-      return;
-    }
+    // if (!word || word === " ") {
+    //   setDefinition("");
+    //   return;
+    // }
 
     const entry = lib.find(
       (item) => item.word.toLowerCase() === word.toLowerCase()
